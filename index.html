@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Nayana</title>
-        <link rel="icon" href="./assets/images/favicon.png"/>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./styles/main.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nayana</title>
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+
+    <input type="checkbox" id="themeSwitch" name="theme-switch" class="theme-switch__input" />
+    <div class="page">
         <div id="container--main">
 
+            <label for="themeSwitch" class="theme-switch__label">
+                <span class="switchThemeText">Switch theme</span>
+            </label>
+
             <section id="wrapper--hero" class="section--page">
-                <img id="profile-pic" src="./assets/images/profile_pic.jpeg">
+                <img id="profile-pic" src="./assets/images/profile_pic.jpeg" alt="'profile picture'">
 
                 <div>
                     <h1 id="user-name">Nayana Renjit</h1>
-                    <p id="bio">Frontend web developer experienced in Angular, Javascript, HTML, CSS</p>
-                    <p id="email" class="with-icon"><img class="icon" src="./assets/images/mailbox.svg" alt="'Email Id'"><a href="mailto:nayanarenjit@gmail.com"> nayanarenjit@gmail.com </a></p>
-                </div>  
+                    <p id="bio">Frontend web developer experienced in Angular, Javascript, HTML and CSS</p>
+                    <p id="email" class="with-icon"><img class="icon" src="./assets/images/mailbox.svg"
+                            alt="'Email Id'"><a href="mailto:nayanarenjit@gmail.com"> nayanarenjit@gmail.com </a></p>
+                </div>
             </section>
 
             <section class="section--page">
-        
+
                 <div id="socials--list">
                     <a href="https://www.linkedin.com/in/nayana-renjit-442446ba/" target="_blank">LinkedIn</a>
                     <a href="./assets/nayanarenjit_23.pdf" target="_blank">Download Resume</a>
@@ -33,9 +43,12 @@
             <section class="section--page">
                 <h2>Skills & Qualifications</h2>
                 <ul id="qualifications--list">
-                    <li class="with-icon"><img class="icon" src="./assets/images/greenTick.svg" aria-hidden="true"> 6 Years of experience with Frontend Web Development</li>
-                    <li class="with-icon"><img class="icon" src="./assets/images/greenTick.svg" aria-hidden="true"> Extensive knowledge in creating UIs integrating with different APIs</li>
-                    <li class="with-icon"><img class="icon" src="./assets/images/greenTick.svg" aria-hidden="true"> Experienced in creating responsive and accesssibility compliant web pages </li>
+                    <li class="with-icon"><img class="icon" src="./assets/images/greenTick.svg" aria-hidden="true"> 6
+                        Years of experience with Frontend Web Development</li>
+                    <li class="with-icon"><img class="icon" src="./assets/images/greenTick.svg" aria-hidden="true">
+                        Extensive knowledge in creating UIs integrating with different APIs</li>
+                    <li class="with-icon"><img class="icon" src="./assets/images/greenTick.svg" aria-hidden="true">
+                        Experienced in creating responsive and accesssibility compliant web pages </li>
                 </ul>
             </section>
 
@@ -54,28 +67,37 @@
 
                 <div class="line-break"></div>
                 <div class="card--work-history">
-                    <strong class="with-icon"><img class="icon" src="./assets/images/briefcase.svg" aria-hidden="true"> SENIOR SOFTWARE ENGINEER | AMADEUS LABS</strong>
+                    <strong class="with-icon"><img class="icon" src="./assets/images/briefcase.svg" aria-hidden="true">
+                        SENIOR SOFTWARE ENGINEER | AMADEUS LABS</strong>
                     <p>04/2019 - Present</p>
                     <ul>
-                        <li>Part of the team which developed the new E-commerce web application for AC's PSS (Passenger Service System) systems migration to Amadeus. Provided onsite support for the migration cutover.</li>
+                        <li>Part of the team which developed the new E-commerce web application for AC's PSS (Passenger
+                            Service System) systems migration to Amadeus. Provided onsite support for the migration
+                            cutover.</li>
                         <li>Fixed critical issues post migration and provided on call support too on occasion.</li>
-                        <li>Implemented Single Sign-on support for logged-in user flows on the application with the AWS Amplify SDK</li>
-                        <li>Assessed and contributed to improving performance of the application like implementing Service Workers and code cleanup activites.</li>
+                        <li>Implemented Single Sign-on support for logged-in user flows on the application with the AWS
+                            Amplify SDK</li>
+                        <li>Assessed and contributed to improving performance of the application like implementing
+                            Service Workers and code cleanup activites.</li>
                         <li>Migrated legacy features in AngularJS to Angular</li>
-                        <li>Currently contributing to analysing, designing and developing new features for the application such as integration with third-party products. </li>
+                        <li>Currently contributing to analysing, designing and developing new features for the
+                            application such as integration with third-party products. </li>
                     </ul>
                 </div>
 
                 <div class="line-break"></div>
 
                 <div class="card--work-history">
-                    <strong class="with-icon"><img class="icon" src="./assets/images/briefcase.svg" aria-hidden="true"> SOFTWARE ENGINEER | AMADEUS LABS</strong>
+                    <strong class="with-icon"><img class="icon" src="./assets/images/briefcase.svg" aria-hidden="true">
+                        SOFTWARE ENGINEER | AMADEUS LABS</strong>
                     <p>07/2016 - 04/2019</p>
                     <ul>
                         <li>Developing features for the Air Canada E-commerce web application pre PSS migration.</li>
-                        <li>Implemented many accessibility features to make the application compliant to accessibility guidelines.</li>
+                        <li>Implemented many accessibility features to make the application compliant to accessibility
+                            guidelines.</li>
                         <li>Developed email templates for the application using Freemarker Template Language.</li>
-                        <li>Implemented major modules like seat selection and payment for the PSS migration project.</li>
+                        <li>Implemented major modules like seat selection and payment for the PSS migration project.
+                        </li>
                     </ul>
                 </div>
             </section>
@@ -84,19 +106,23 @@
                 <h2>Certifications</h2>
 
                 <div class="card--project">
-                    <span class="with-icon"><img class="icon" src="./assets/images/idCard.svg"> SAFe 4 Practioner Certification (2018)</span>
+                    <span class="with-icon"><img class="icon" src="./assets/images/idCard.svg"> SAFe 4 Practitioner
+                        Certification (2018)</span>
                 </div>
 
                 <div class="card--project">
-                    <span class="with-icon"><img class="icon" src="./assets/images/idCard.svg"> High Flyer Award in 2016, 2017, 2018, 2019, 2020, 2021 and 2022</span>
+                    <span class="with-icon"><img class="icon" src="./assets/images/idCard.svg"> High Flyer Award in
+                        2016, 2017, 2018, 2019, 2020, 2021 and 2022</span>
                 </div>
 
                 <div class="card--project">
-                    <span class="with-icon"><img class="icon" src="./assets/images/idCard.svg"> My team was awarded the Amadeus Dream Team award in 2019</span>
+                    <span class="with-icon"><img class="icon" src="./assets/images/idCard.svg"> My team was awarded the
+                        Amadeus Dream Team award in 2019</span>
                 </div>
 
                 <div class="card--project">
-                    <span class="with-icon"><img class="icon" src="./assets/images/idCard.svg"> Ranked 190 nationally in the Finale Round of Tech Gig Code Galdiators 2022 </span>
+                    <span class="with-icon"><img class="icon" src="./assets/images/idCard.svg"> Ranked 190 nationally in
+                        the Finale Round of Tech Gig Code Galdiators 2022 </span>
                 </div>
 
                 <!-- <div class="card--project">
@@ -105,15 +131,19 @@
 
             </section>
 
-       
+
         </div>
+    </div>
 
-    </body>
+</body>
 
-    <!--
+<!--
         https://openmoji.org/ for icons
         add tech gig
         https://freefrontend.com/css-border-animations/
+        https://codepen.io/michellebarker/pen/GzzrGJ
+        https://alexandersandberg.com/articles/creating-a-website-theme-switcher-with-css-only/
         
     -->
+
 </html>
